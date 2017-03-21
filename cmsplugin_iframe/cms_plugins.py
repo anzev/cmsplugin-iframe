@@ -9,7 +9,7 @@ from .forms import IframeForm
 class IframePlugin(CMSPluginBase):
     model = Plugin
     form = IframeForm
-    name = _('Iframe Video Plugin')
+    name = _('Iframe Plugin')
     render_template = 'cms/plugins/iframe.html'
 
 plugin_pool.register_plugin(IframePlugin)
